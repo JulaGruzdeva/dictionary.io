@@ -84,7 +84,7 @@ function buildWorkList(){
         <p class="blockWithoutTranslateText">${localStorage.key(i)}</p>
     </div>
     <div style="display: inline-block;">
-        <button class="buttonDel" style="margin-left: 168px;">X</button>
+        <button class="buttonDel" style="margin-left: 195px;">X</button>
         <button class="buttonShow" style="margin-left: 4px;">Show</button>
     </div>`;
         workList.append(newBlock);
