@@ -7,9 +7,9 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 body{
-    background: radial-gradient(79.8% 50% at 50% 50%, #53D6FF 0%, #A5E9FF 100%) no-repeat;
-    width: 100vw;
-    height: 100vh;
+    background: radial-gradient(79.8% 50% at 50% 50%, #53D6FF 0%, #A5E9FF 100%);
+    width: 100%;
+    height: 100%;
     margin: 0;
     font-family: 'Inter';
 
@@ -60,6 +60,7 @@ body{
     color: #7c7c7c;
     width: 285px;
     margin:0 auto;
+    outline: none;
 }
 
 .addBanner{
@@ -118,7 +119,21 @@ input::placeholder{
     line-height: 29px;
     color: #0085FF;
     margin: 0;
-    padding: 13px 0 13px 19px;
+    padding: 13px 0 3px 19px;
     
 }
 
+.buttonDel{
+    background: #45A6FF;
+    border-radius: 15.5px 15.5px 0px 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 33px;
+    height: 31px;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
